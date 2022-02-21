@@ -192,7 +192,7 @@ def yayanxd():
         print('\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N));time.sleep(2)
         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N));time.sleep(2)
         input(' %s*%s tekan enter '%(O,N))
-        os.system('xdg-open https://wa.me/+2348110044418'')
+        os.system('xdg-open https://wa.me/+2348110044418')
         moch_yayan()
     except AttributeError:
         print('\n %s[%s×%s] cookies invalid'%(N,M,N));time.sleep(1);yayanxd()
